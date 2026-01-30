@@ -1,0 +1,9 @@
+name: Build Broken
+on: [push]
+jobs:
+  fails:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run script that doesn't exist
+        run: ./non-existent-script.sh
