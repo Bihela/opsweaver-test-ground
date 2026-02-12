@@ -1,9 +1,20 @@
-name: Build Broken
-on: [push]
+name: Production Deployment
+on:
+  workflow_dispatch: # Allows you to click a button to run it manually
+
 jobs:
-  fails:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Run script that doesn't exist
-        run: ./non-existent-script.sh
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Simulate Build
+        run: echo "Building application..."
+
+      - name: Simulate Database Connection
+        run: |
+          echo "Connecting to Prod DB..."
+          # Intentionally fail to simulate a real outage
+          echo "Error: ConnectionRefused. Firewall block on port 1433."
+          exit 1
