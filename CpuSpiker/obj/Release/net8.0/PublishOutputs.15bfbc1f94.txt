@@ -1,0 +1,9 @@
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\CpuSpiker.exe
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\appsettings.Development.json
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\appsettings.json
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\CpuSpiker.dll
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\CpuSpiker.deps.json
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\CpuSpiker.runtimeconfig.json
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\CpuSpiker.pdb
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Home\Documents\New folder\opsweaver-test-ground\CpuSpiker\publish\Microsoft.OpenApi.dll

@@ -1,0 +1,371 @@
+2026-02-11T17:24:30.881143686Z    _____                               
+2026-02-11T17:24:30.887494212Z   /  _  \ __________ _________   ____  
+2026-02-11T17:24:30.887623343Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-02-11T17:24:30.887628953Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-02-11T17:24:30.887755730Z \____|__  /_____ \____/ |__|    \___  >
+2026-02-11T17:24:30.887763584Z         \/      \/                  \/ 
+2026-02-11T17:24:30.887768223Z A P P   S E R V I C E   O N   L I N U X
+2026-02-11T17:24:30.887772361Z 
+2026-02-11T17:24:30.887776548Z Documentation       : http://aka.ms/webapp-linux
+2026-02-11T17:24:30.887780586Z Dotnet quickstart   : https://aka.ms/dotnet-qs
+2026-02-11T17:24:30.887784643Z ASP .NETCore Version: 8.0.23
+2026-02-11T17:24:30.887788751Z Instance Name       : 10-30-0-119
+2026-02-11T17:24:30.887793069Z Instance Id         : c21931057f7032b90fc13a9a64998792e2c84a2242dc975345122b506def5c0b
+2026-02-11T17:24:30.887797056Z 
+2026-02-11T17:24:30.887801064Z Note: Any data outside '/home' is not persisted
+2026-02-11T17:24:33.496049173Z Starting OpenBSD Secure Shell server: sshd.
+2026-02-11T17:24:33.524212302Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-02-11T17:24:33.555638532Z Updating certificates in /etc/ssl/certs...
+2026-02-11T17:24:50.620627965Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-02-11T17:24:50.620817819Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-02-11T17:24:50.905521993Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-02-11T17:24:50.983114397Z 4 added, 0 removed; done.
+2026-02-11T17:24:50.983215165Z Running hooks in /etc/ca-certificates/update.d...
+2026-02-11T17:24:50.988601782Z done.
+2026-02-11T17:24:51.001162054Z CA certificates copied and updated successfully.
+2026-02-11T17:24:51.386483302Z Starting periodic command scheduler: cron.
+2026-02-11T17:24:51.386535339Z Running oryx create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -defaultAppFilePath /defaulthome/hostingstart/hostingstart.dll     -bindPort 8080 -bindPort2 '' -userStartupCommand '' 
+2026-02-11T17:24:51.547970373Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-02-11T17:24:51.548116274Z Could not find operation ID in manifest. Generating an operation id...
+2026-02-11T17:24:51.548128156Z Build Operation ID: 02d4c441-25a9-4e10-9514-c19c527ae463
+2026-02-11T17:24:51.972340004Z 
+2026-02-11T17:24:51.972817083Z Agent extension 
+2026-02-11T17:24:51.972869982Z Before if loop >> DotNet Runtime 
+2026-02-11T17:24:52.027625873Z DotNet Runtime 8.0Writing output script to '/opt/startup/startup.sh'
+2026-02-11T17:24:52.119715583Z Trying to find the startup DLL name...
+2026-02-11T17:24:52.119771818Z Found the startup D name: CpuSpiker.dll
+2026-02-11T17:24:52.119981228Z Running the command: dotnet "CpuSpiker.dll"
+2026-02-11T17:24:52.140599585Z You must install or update .NET to run this application.
+2026-02-11T17:24:52.140645992Z 
+2026-02-11T17:24:52.140652954Z App: /home/site/wwwroot/CpuSpiker.dll
+2026-02-11T17:24:52.140657874Z Architecture: x64
+2026-02-11T17:24:52.142023952Z Framework: 'Microsoft.NETCore.App', version '9.0.0' (x64)
+2026-02-11T17:24:52.142063296Z .NET location: /usr/share/dotnet/
+2026-02-11T17:24:52.142108750Z 
+2026-02-11T17:24:52.142175845Z The following frameworks were found:
+2026-02-11T17:24:52.142252348Z   8.0.23 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-02-11T17:24:52.142339130Z 
+2026-02-11T17:24:52.142346243Z Learn more:
+2026-02-11T17:24:52.142350401Z https://aka.ms/dotnet/app-launch-failed
+2026-02-11T17:24:52.142354578Z 
+2026-02-11T17:24:52.142358265Z To install missing framework, download:
+2026-02-11T17:24:52.142362373Z https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=9.0.0&arch=x64&rid=linux-x64&os=debian.12
+
+2026-02-11T17:26:36.128172970Z    _____                               
+2026-02-11T17:26:36.128217934Z   /  _  \ __________ _________   ____  
+2026-02-11T17:26:36.128223053Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-02-11T17:26:36.128227231Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-02-11T17:26:36.128231379Z \____|__  /_____ \____/ |__|    \___  >
+2026-02-11T17:26:36.128235547Z         \/      \/                  \/ 
+2026-02-11T17:26:36.128239554Z A P P   S E R V I C E   O N   L I N U X
+2026-02-11T17:26:36.128243361Z 
+2026-02-11T17:26:36.128247098Z Documentation       : http://aka.ms/webapp-linux
+2026-02-11T17:26:36.128251145Z Dotnet quickstart   : https://aka.ms/dotnet-qs
+2026-02-11T17:26:36.128254852Z ASP .NETCore Version: 8.0.23
+2026-02-11T17:26:36.128258750Z Instance Name       : 10-30-0-119
+2026-02-11T17:26:36.143879515Z Instance Id         : c21931057f7032b90fc13a9a64998792e2c84a2242dc975345122b506def5c0b
+2026-02-11T17:26:36.143896206Z 
+2026-02-11T17:26:36.143901175Z Note: Any data outside '/home' is not persisted
+2026-02-11T17:26:37.677612998Z Starting OpenBSD Secure Shell server: sshd.
+2026-02-11T17:26:37.693129766Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-02-11T17:26:37.774587258Z Updating certificates in /etc/ssl/certs...
+2026-02-11T17:26:51.558520436Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-02-11T17:26:51.558894102Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-02-11T17:26:51.616162954Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-02-11T17:26:51.638763395Z 4 added, 0 removed; done.
+2026-02-11T17:26:51.640141362Z Running hooks in /etc/ca-certificates/update.d...
+2026-02-11T17:26:51.651036597Z done.
+2026-02-11T17:26:51.660862358Z CA certificates copied and updated successfully.
+2026-02-11T17:26:51.917342097Z Starting periodic command scheduler: cron.
+2026-02-11T17:26:51.926563034Z Running oryx create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -defaultAppFilePath /defaulthome/hostingstart/hostingstart.dll     -bindPort 8080 -bindPort2 '' -userStartupCommand '' 
+2026-02-11T17:26:52.063226896Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-02-11T17:26:52.063258575Z Could not find operation ID in manifest. Generating an operation id...
+2026-02-11T17:26:52.063265648Z Build Operation ID: 665f9943-764d-472a-9843-f224bc006290
+2026-02-11T17:26:52.752727657Z 
+2026-02-11T17:26:52.752836243Z Agent extension 
+2026-02-11T17:26:52.752850179Z Before if loop >> DotNet Runtime 
+2026-02-11T17:26:52.793853421Z DotNet Runtime 8.0Writing output script to '/opt/startup/startup.sh'
+2026-02-11T17:26:52.848600857Z Trying to find the startup DLL name...
+2026-02-11T17:26:52.848921564Z Found the startup D name: CpuSpiker.dll
+2026-02-11T17:26:52.848931292Z Running the command: dotnet "CpuSpiker.dll"
+2026-02-11T17:26:52.978265036Z You must install or update .NET to run this application.
+2026-02-11T17:26:52.978293458Z 
+2026-02-11T17:26:52.978361776Z App: /home/site/wwwroot/CpuSpiker.dll
+2026-02-11T17:26:52.983822589Z Architecture: x64
+2026-02-11T17:26:52.983850681Z Framework: 'Microsoft.NETCore.App', version '9.0.0' (x64)
+2026-02-11T17:26:52.983856151Z .NET location: /usr/share/dotnet/
+2026-02-11T17:26:52.983861040Z 
+2026-02-11T17:26:52.983865378Z The following frameworks were found:
+2026-02-11T17:26:52.983870247Z   8.0.23 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-02-11T17:26:52.983875176Z 
+2026-02-11T17:26:52.983944105Z Learn more:
+2026-02-11T17:26:52.983950817Z https://aka.ms/dotnet/app-launch-failed
+2026-02-11T17:26:52.983955035Z 
+2026-02-11T17:26:52.983959323Z To install missing framework, download:
+2026-02-11T17:26:52.983964172Z https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=9.0.0&arch=x64&rid=linux-x64&os=debian.12
+
+2026-02-11T17:27:06.612856913Z    _____                               
+2026-02-11T17:27:06.613022882Z   /  _  \ __________ _________   ____  
+2026-02-11T17:27:06.613029264Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-02-11T17:27:06.613033752Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-02-11T17:27:06.613038120Z \____|__  /_____ \____/ |__|    \___  >
+2026-02-11T17:27:06.613042789Z         \/      \/                  \/ 
+2026-02-11T17:27:06.613047217Z A P P   S E R V I C E   O N   L I N U X
+2026-02-11T17:27:06.613051606Z 
+2026-02-11T17:27:06.613056214Z Documentation       : http://aka.ms/webapp-linux
+2026-02-11T17:27:06.613060472Z Dotnet quickstart   : https://aka.ms/dotnet-qs
+2026-02-11T17:27:06.613064750Z ASP .NETCore Version: 8.0.23
+2026-02-11T17:27:06.613069108Z Instance Name       : 10-30-0-119
+2026-02-11T17:27:06.613073887Z Instance Id         : c21931057f7032b90fc13a9a64998792e2c84a2242dc975345122b506def5c0b
+2026-02-11T17:27:06.613079087Z 
+2026-02-11T17:27:06.613083776Z Note: Any data outside '/home' is not persisted
+2026-02-11T17:27:08.193988923Z Starting OpenBSD Secure Shell server: sshd.
+2026-02-11T17:27:08.201242347Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-02-11T17:27:08.226861599Z Updating certificates in /etc/ssl/certs...
+2026-02-11T17:28:01.285448315Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-02-11T17:28:01.290824912Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-02-11T17:28:02.229526611Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-02-11T17:28:02.408668610Z 4 added, 0 removed; done.
+2026-02-11T17:28:02.417335051Z Running hooks in /etc/ca-certificates/update.d...
+2026-02-11T17:28:02.441498328Z done.
+2026-02-11T17:28:02.550853702Z CA certificates copied and updated successfully.
+2026-02-11T17:28:03.833174820Z Starting periodic command scheduler: cron.
+2026-02-11T17:28:03.968448546Z Running oryx create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -defaultAppFilePath /defaulthome/hostingstart/hostingstart.dll     -bindPort 8080 -bindPort2 '' -userStartupCommand '' 
+2026-02-11T17:28:04.289350144Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-02-11T17:28:04.289378264Z Could not find operation ID in manifest. Generating an operation id...
+2026-02-11T17:28:04.289384687Z Build Operation ID: 237f9915-0a8c-4f8b-a8b6-e47d753a32f1
+2026-02-11T17:28:05.472168604Z 
+2026-02-11T17:28:05.477864181Z Agent extension 
+2026-02-11T17:28:05.477954723Z Before if loop >> DotNet Runtime 
+2026-02-11T17:28:05.558260688Z DotNet Runtime 8.0Writing output script to '/opt/startup/startup.sh'
+2026-02-11T17:28:05.818868294Z Trying to find the startup DLL name...
+2026-02-11T17:28:05.818898188Z Found the startup D name: CpuSpiker.dll
+2026-02-11T17:28:05.818903659Z Running the command: dotnet "CpuSpiker.dll"
+2026-02-11T17:28:05.896732383Z You must install or update .NET to run this application.
+2026-02-11T17:28:05.896764201Z 
+2026-02-11T17:28:05.896769021Z App: /home/site/wwwroot/CpuSpiker.dll
+2026-02-11T17:28:05.896773149Z Architecture: x64
+2026-02-11T17:28:05.896777389Z Framework: 'Microsoft.NETCore.App', version '9.0.0' (x64)
+2026-02-11T17:28:05.896781507Z .NET location: /usr/share/dotnet/
+2026-02-11T17:28:05.896785235Z 
+2026-02-11T17:28:05.896788983Z The following frameworks were found:
+2026-02-11T17:28:05.896792671Z   8.0.23 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-02-11T17:28:05.896796529Z 
+2026-02-11T17:28:05.896800117Z Learn more:
+2026-02-11T17:28:05.896803845Z https://aka.ms/dotnet/app-launch-failed
+2026-02-11T17:28:05.896807633Z 
+2026-02-11T17:28:05.896811190Z To install missing framework, download:
+2026-02-11T17:28:05.896814898Z https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=9.0.0&arch=x64&rid=linux-x64&os=debian.12
+
+2026-02-11T17:28:28.115745180Z    _____                               
+2026-02-11T17:28:28.115796405Z   /  _  \ __________ _________   ____  
+2026-02-11T17:28:28.115801735Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-02-11T17:28:28.115806253Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-02-11T17:28:28.115810200Z \____|__  /_____ \____/ |__|    \___  >
+2026-02-11T17:28:28.115814318Z         \/      \/                  \/ 
+2026-02-11T17:28:28.115818195Z A P P   S E R V I C E   O N   L I N U X
+2026-02-11T17:28:28.115821982Z 
+2026-02-11T17:28:28.115825859Z Documentation       : http://aka.ms/webapp-linux
+2026-02-11T17:28:28.115829747Z Dotnet quickstart   : https://aka.ms/dotnet-qs
+2026-02-11T17:28:28.115833684Z ASP .NETCore Version: 8.0.23
+2026-02-11T17:28:28.115837401Z Instance Name       : 10-30-0-119
+2026-02-11T17:28:28.115841278Z Instance Id         : c21931057f7032b90fc13a9a64998792e2c84a2242dc975345122b506def5c0b
+2026-02-11T17:28:28.115845185Z 
+2026-02-11T17:28:28.115849042Z Note: Any data outside '/home' is not persisted
+2026-02-11T17:28:34.212143061Z Starting OpenBSD Secure Shell server: sshd.
+2026-02-11T17:28:34.257880653Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-02-11T17:28:34.398467112Z Updating certificates in /etc/ssl/certs...
+2026-02-11T17:28:42.247015928Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-02-11T17:28:42.247066051Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-02-11T17:28:42.381466243Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-02-11T17:28:42.413167403Z 4 added, 0 removed; done.
+2026-02-11T17:28:42.413193922Z Running hooks in /etc/ca-certificates/update.d...
+2026-02-11T17:28:42.413204532Z done.
+2026-02-11T17:28:42.442213775Z CA certificates copied and updated successfully.
+2026-02-11T17:28:42.665466379Z Starting periodic command scheduler: cron.
+2026-02-11T17:28:42.667495648Z Running oryx create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -defaultAppFilePath /defaulthome/hostingstart/hostingstart.dll     -bindPort 8080 -bindPort2 '' -userStartupCommand '' 
+2026-02-11T17:28:42.784821681Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-02-11T17:28:42.785246975Z Could not find operation ID in manifest. Generating an operation id...
+2026-02-11T17:28:42.785261542Z Build Operation ID: 0591d2b3-9beb-43d2-84b9-7179cef3534e
+2026-02-11T17:28:43.145454394Z 
+2026-02-11T17:28:43.145480734Z Agent extension 
+2026-02-11T17:28:43.145485683Z Before if loop >> DotNet Runtime 
+2026-02-11T17:28:43.187603779Z DotNet Runtime 8.0Writing output script to '/opt/startup/startup.sh'
+2026-02-11T17:28:43.227746694Z Trying to find the startup DLL name...
+2026-02-11T17:28:43.227771430Z Found the startup D name: CpuSpiker.dll
+2026-02-11T17:28:43.227776589Z Running the command: dotnet "CpuSpiker.dll"
+2026-02-11T17:28:43.238333731Z You must install or update .NET to run this application.
+2026-02-11T17:28:43.238349310Z 
+2026-02-11T17:28:43.238354259Z App: /home/site/wwwroot/CpuSpiker.dll
+2026-02-11T17:28:43.238358798Z Architecture: x64
+2026-02-11T17:28:43.238362605Z Framework: 'Microsoft.NETCore.App', version '9.0.0' (x64)
+2026-02-11T17:28:43.238366552Z .NET location: /usr/share/dotnet/
+2026-02-11T17:28:43.238370359Z 
+2026-02-11T17:28:43.238373966Z The following frameworks were found:
+2026-02-11T17:28:43.238377753Z   8.0.23 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-02-11T17:28:43.238381661Z 
+2026-02-11T17:28:43.238385337Z Learn more:
+2026-02-11T17:28:43.238389315Z https://aka.ms/dotnet/app-launch-failed
+2026-02-11T17:28:43.238393593Z 
+2026-02-11T17:28:43.238397440Z To install missing framework, download:
+2026-02-11T17:28:43.238401988Z https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=9.0.0&arch=x64&rid=linux-x64&os=debian.12
+
+2026-02-11T17:36:36.785135978Z    _____                               
+2026-02-11T17:36:36.787234986Z   /  _  \ __________ _________   ____  
+2026-02-11T17:36:36.787242500Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-02-11T17:36:36.787247198Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-02-11T17:36:36.787251657Z \____|__  /_____ \____/ |__|    \___  >
+2026-02-11T17:36:36.787256606Z         \/      \/                  \/ 
+2026-02-11T17:36:36.787261996Z A P P   S E R V I C E   O N   L I N U X
+2026-02-11T17:36:36.787266404Z 
+2026-02-11T17:36:36.787270762Z Documentation       : http://aka.ms/webapp-linux
+2026-02-11T17:36:36.787275150Z Dotnet quickstart   : https://aka.ms/dotnet-qs
+2026-02-11T17:36:36.787279148Z ASP .NETCore Version: 8.0.23
+2026-02-11T17:36:36.787283185Z Instance Name       : 10-30-0-119
+2026-02-11T17:36:36.787287143Z Instance Id         : c21931057f7032b90fc13a9a64998792e2c84a2242dc975345122b506def5c0b
+2026-02-11T17:36:36.787291391Z 
+2026-02-11T17:36:36.787295158Z Note: Any data outside '/home' is not persisted
+2026-02-11T17:36:39.585437321Z Starting OpenBSD Secure Shell server: sshd.
+2026-02-11T17:36:39.615039864Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-02-11T17:36:39.683554604Z Updating certificates in /etc/ssl/certs...
+2026-02-11T17:36:53.750077461Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-02-11T17:36:53.750138945Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-02-11T17:36:53.832252858Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-02-11T17:36:53.847397721Z 4 added, 0 removed; done.
+2026-02-11T17:36:53.848071466Z Running hooks in /etc/ca-certificates/update.d...
+2026-02-11T17:36:53.852442549Z done.
+2026-02-11T17:36:53.867147585Z CA certificates copied and updated successfully.
+2026-02-11T17:36:54.097264145Z Starting periodic command scheduler: cron.
+2026-02-11T17:36:54.118055341Z Running oryx create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -defaultAppFilePath /defaulthome/hostingstart/hostingstart.dll     -bindPort 8080 -bindPort2 '' -userStartupCommand '' 
+2026-02-11T17:36:54.380889177Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-02-11T17:36:54.380915586Z Could not find operation ID in manifest. Generating an operation id...
+2026-02-11T17:36:54.380922499Z Build Operation ID: c88c1d26-8348-499e-8067-b85ff011a754
+2026-02-11T17:36:56.303274263Z 
+2026-02-11T17:36:56.303521493Z Agent extension 
+2026-02-11T17:36:56.303529538Z Before if loop >> DotNet Runtime 
+2026-02-11T17:36:56.435092195Z DotNet Runtime 8.0Writing output script to '/opt/startup/startup.sh'
+2026-02-11T17:36:56.538874887Z Trying to find the startup DLL name...
+2026-02-11T17:36:56.538909271Z Found the startup D name: CpuSpiker.dll
+2026-02-11T17:36:56.538914862Z Running the command: dotnet "CpuSpiker.dll"
+2026-02-11T17:36:56.593055224Z You must install or update .NET to run this application.
+2026-02-11T17:36:56.596797371Z 
+2026-02-11T17:36:56.602763712Z App: /home/site/wwwroot/CpuSpiker.dll
+2026-02-11T17:36:56.602784610Z Architecture: x64
+2026-02-11T17:36:56.602842859Z Framework: 'Microsoft.NETCore.App', version '9.0.0' (x64)
+2026-02-11T17:36:56.602851354Z .NET location: /usr/share/dotnet/
+2026-02-11T17:36:56.602855703Z 
+2026-02-11T17:36:56.602859830Z The following frameworks were found:
+2026-02-11T17:36:56.602863978Z   8.0.23 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-02-11T17:36:56.602868066Z 
+2026-02-11T17:36:56.602871983Z Learn more:
+2026-02-11T17:36:56.602875780Z https://aka.ms/dotnet/app-launch-failed
+2026-02-11T17:36:56.602879647Z 
+2026-02-11T17:36:56.602883394Z To install missing framework, download:
+2026-02-11T17:36:56.602887452Z https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=9.0.0&arch=x64&rid=linux-x64&os=debian.12
+
+2026-02-11T17:53:21.720315328Z    _____                               
+2026-02-11T17:53:21.732828530Z   /  _  \ __________ _________   ____  
+2026-02-11T17:53:21.732836332Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-02-11T17:53:21.732841531Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-02-11T17:53:21.732846979Z \____|__  /_____ \____/ |__|    \___  >
+2026-02-11T17:53:21.732852048Z         \/      \/                  \/ 
+2026-02-11T17:53:21.732856876Z A P P   S E R V I C E   O N   L I N U X
+2026-02-11T17:53:21.732861292Z 
+2026-02-11T17:53:21.732866131Z Documentation       : http://aka.ms/webapp-linux
+2026-02-11T17:53:21.732870668Z Dotnet quickstart   : https://aka.ms/dotnet-qs
+2026-02-11T17:53:21.732874794Z ASP .NETCore Version: 8.0.23
+2026-02-11T17:53:21.732879172Z Instance Name       : 10-30-0-119
+2026-02-11T17:53:21.732883168Z Instance Id         : c21931057f7032b90fc13a9a64998792e2c84a2242dc975345122b506def5c0b
+2026-02-11T17:53:21.732888186Z 
+2026-02-11T17:53:21.732892553Z Note: Any data outside '/home' is not persisted
+2026-02-11T17:53:33.774704331Z Starting OpenBSD Secure Shell server: sshd.
+2026-02-11T17:53:33.856630499Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-02-11T17:53:34.026886942Z Updating certificates in /etc/ssl/certs...
+2026-02-11T17:53:48.734170241Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-02-11T17:53:48.735492685Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-02-11T17:53:48.796257508Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-02-11T17:53:49.093922168Z 4 added, 0 removed; done.
+2026-02-11T17:53:49.093947496Z Running hooks in /etc/ca-certificates/update.d...
+2026-02-11T17:53:49.137611743Z done.
+2026-02-11T17:53:49.148394557Z CA certificates copied and updated successfully.
+2026-02-11T17:53:49.592362402Z Starting periodic command scheduler: cron.
+2026-02-11T17:53:49.632410147Z Running oryx create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -defaultAppFilePath /defaulthome/hostingstart/hostingstart.dll     -bindPort 8080 -bindPort2 '' -userStartupCommand '' 
+2026-02-11T17:53:49.788950560Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-02-11T17:53:49.788981839Z Could not find operation ID in manifest. Generating an operation id...
+2026-02-11T17:53:49.789120348Z Build Operation ID: 908c87e5-072b-4fa2-b237-41c9965ae279
+2026-02-11T17:53:50.014255825Z 
+2026-02-11T17:53:50.014487203Z Agent extension 
+2026-02-11T17:53:50.014499987Z Before if loop >> DotNet Runtime 
+2026-02-11T17:53:50.047076092Z DotNet Runtime 8.0Writing output script to '/opt/startup/startup.sh'
+2026-02-11T17:53:50.089166860Z Trying to find the startup DLL name...
+2026-02-11T17:53:50.089685492Z Found the startup D name: CpuSpiker.dll
+2026-02-11T17:53:50.089937289Z Running the command: dotnet "CpuSpiker.dll"
+2026-02-11T17:53:50.112940780Z You must install or update .NET to run this application.
+2026-02-11T17:53:50.112967511Z 
+2026-02-11T17:53:50.112973372Z App: /home/site/wwwroot/CpuSpiker.dll
+2026-02-11T17:53:50.114746599Z Architecture: x64
+2026-02-11T17:53:50.114761938Z Framework: 'Microsoft.NETCore.App', version '9.0.0' (x64)
+2026-02-11T17:53:50.114767679Z .NET location: /usr/share/dotnet/
+2026-02-11T17:53:50.114772418Z 
+2026-02-11T17:53:50.114776395Z The following frameworks were found:
+2026-02-11T17:53:50.114874070Z   8.0.23 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-02-11T17:53:50.114881544Z 
+2026-02-11T17:53:50.114886484Z Learn more:
+2026-02-11T17:53:50.114890872Z https://aka.ms/dotnet/app-launch-failed
+2026-02-11T17:53:50.114895120Z 
+2026-02-11T17:53:50.114899879Z To install missing framework, download:
+2026-02-11T17:53:50.114904538Z https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=9.0.0&arch=x64&rid=linux-x64&os=debian.12
+
+2026-02-11T17:58:52.589922048Z    _____                               
+2026-02-11T17:58:52.589970627Z   /  _  \ __________ _________   ____  
+2026-02-11T17:58:52.589977249Z  /  /_\  \\___   /  |  \_  __ \_/ __ \ 
+2026-02-11T17:58:52.589981788Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2026-02-11T17:58:52.589986056Z \____|__  /_____ \____/ |__|    \___  >
+2026-02-11T17:58:52.589990704Z         \/      \/                  \/ 
+2026-02-11T17:58:52.589995162Z A P P   S E R V I C E   O N   L I N U X
+2026-02-11T17:58:52.589999982Z 
+2026-02-11T17:58:52.590030247Z Documentation       : http://aka.ms/webapp-linux
+2026-02-11T17:58:52.590035357Z Dotnet quickstart   : https://aka.ms/dotnet-qs
+2026-02-11T17:58:52.590039434Z ASP .NETCore Version: 8.0.23
+2026-02-11T17:58:52.590043662Z Instance Name       : 10-30-0-119
+2026-02-11T17:58:52.590047820Z Instance Id         : c21931057f7032b90fc13a9a64998792e2c84a2242dc975345122b506def5c0b
+2026-02-11T17:58:52.590052368Z 
+2026-02-11T17:58:52.590056446Z Note: Any data outside '/home' is not persisted
+2026-02-11T17:58:54.067779896Z Starting OpenBSD Secure Shell server: sshd.
+2026-02-11T17:58:54.073776973Z WEBSITES_INCLUDE_CLOUD_CERTS is not set to true.
+2026-02-11T17:58:54.138292969Z Updating certificates in /etc/ssl/certs...
+2026-02-11T17:59:04.588757756Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_ECC_Root_CA_2022.pem
+2026-02-11T17:59:04.588869103Z rehash: warning: skipping duplicate certificate in azl_SSL.com_TLS_RSA_Root_CA_2022.pem
+2026-02-11T17:59:04.674993134Z rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+2026-02-11T17:59:04.699190645Z 4 added, 0 removed; done.
+2026-02-11T17:59:04.699786342Z Running hooks in /etc/ca-certificates/update.d...
+2026-02-11T17:59:04.703778548Z done.
+2026-02-11T17:59:04.715743094Z CA certificates copied and updated successfully.
+2026-02-11T17:59:04.877296083Z Starting periodic command scheduler: cron.
+2026-02-11T17:59:04.881257059Z Running oryx create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -defaultAppFilePath /defaulthome/hostingstart/hostingstart.dll     -bindPort 8080 -bindPort2 '' -userStartupCommand '' 
+2026-02-11T17:59:05.795181108Z Could not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2026-02-11T17:59:05.795277447Z Could not find operation ID in manifest. Generating an operation id...
+2026-02-11T17:59:05.800965934Z Build Operation ID: 7aa803e9-85c0-474d-8b06-712a7120e9f0
+2026-02-11T17:59:06.224550106Z 
+2026-02-11T17:59:06.225057098Z Agent extension 
+2026-02-11T17:59:06.225258843Z Before if loop >> DotNet Runtime 
+2026-02-11T17:59:06.262307435Z DotNet Runtime 8.0Writing output script to '/opt/startup/startup.sh'
+2026-02-11T17:59:06.334782076Z Trying to find the startup DLL name...
+2026-02-11T17:59:06.334809056Z Found the startup D name: CpuSpiker.dll
+2026-02-11T17:59:06.334962358Z Running the command: dotnet "CpuSpiker.dll"
+2026-02-11T17:59:06.353705376Z You must install or update .NET to run this application.
+2026-02-11T17:59:06.353734580Z 
+2026-02-11T17:59:06.353739860Z App: /home/site/wwwroot/CpuSpiker.dll
+2026-02-11T17:59:06.353744529Z Architecture: x64
+2026-02-11T17:59:06.354964055Z Framework: 'Microsoft.NETCore.App', version '9.0.0' (x64)
+2026-02-11T17:59:06.354978692Z .NET location: /usr/share/dotnet/
+2026-02-11T17:59:06.354983371Z 
+2026-02-11T17:59:06.354987138Z The following frameworks were found:
+2026-02-11T17:59:06.354991065Z   8.0.23 at [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+2026-02-11T17:59:06.354994973Z 
+2026-02-11T17:59:06.354998729Z Learn more:
+2026-02-11T17:59:06.355002527Z https://aka.ms/dotnet/app-launch-failed
+2026-02-11T17:59:06.355006334Z 
+2026-02-11T17:59:06.355009960Z To install missing framework, download:
+2026-02-11T17:59:06.359584362Z https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=9.0.0&arch=x64&rid=linux-x64&os=debian.12
+

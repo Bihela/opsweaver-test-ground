@@ -1,0 +1,6 @@
+@CpuSpiker_HostAddress = http://localhost:5160
+
+GET {{CpuSpiker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
